@@ -1,0 +1,179 @@
+#title {
+  background-color: #ff4c68;
+  position: relative;
+  /* z-index: -1; *******************************************************************************bug-buttons in title section does not work*/
+}
+
+h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.rotated-img {
+  position: absolute;
+  right: 30%;
+  transform: rotate(25deg);
+  width: 60%;
+  z-index: 0;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Futures */
+#features {
+  background-color: white;
+  margin: auto;
+  padding-bottom: 150px;
+  padding-top: 150px;
+  position: relative;
+  z-index: +1;
+  width: 70%;
+}
+
+.feature-icons {
+  color: #ff4c68;
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+/* *******************************************************************************************************************HOVER*/
+.feature-icons:hover {
+  color: black;
+}
+
+.col-lg-4 {
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+}
+
+.grey-p {
+  color: grey;
+}
+
+.h3-futures {
+  font-weight: bold;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ff4c68;
+  color: white;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-img {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.press-logo {
+  margin: 20px;
+  width: 15%;
+}
+
+/* Carousel */
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA SECTION */
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 90px;
+}
+
+.h3-footer {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  margin: 0 150px;
+  padding-bottom: 50px;
+}
+
+.cta-button {
+  margin: 30px;
+}
+
+/* FOOTER */
+#footer {
+  background-color: white;
+  padding: 100px;
+  text-align: center;
+}
+
+.footer-icon {
+  padding: 10px;
+}
+/* *****************************************************************************************************************HOVER*/
+.footer-icon:hover {
+  color: #ff4c68;
+}
+
+.p-copyright {
+  color: grey;
+}
+
+/* RESPONSIVE */
+/* when website is under 1028px change this classes to something else/to new look */
+@media (max-width: 1028px) {
+#title {
+    text-align: center;
+  }
+
+  .rotated-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
